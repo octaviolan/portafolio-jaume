@@ -1,0 +1,24 @@
+.comment {
+  margin-block-start: 15px;
+  padding-block-start: 40px;
+  padding-block-end: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+
+.comment p {
+  font: var(--headline5);
+  margin: 0;
+}
+
+.comment p:first-child {
+  font-weight: normal;
+}
+
+.comment img {
+  inline-size: 80px;
+  block-size: 80px;
+  vertical-align: middle;
+}

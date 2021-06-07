@@ -29,3 +29,35 @@
   font: var(--headline5);
   display: block;
 }
+
+@media screen and (min-width: 768px) {
+  .hero {
+    border: 1px solid red;
+    display: flex;
+    gap: 32px;
+  }
+
+  .hero-description {
+    order: 1;
+    max-inline-size: 450px;
+  }
+
+  .hero-image {
+    order: 2;
+    flex: 1;
+    border: 1px solid blue;
+    text-align: end;
+  }
+  .hero .button {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    inline-size: 500px;
+    block-size: 504px;
+    vertical-align: middle;
+  }
+}
