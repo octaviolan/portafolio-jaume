@@ -1,11 +1,15 @@
 .header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.header-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-block-start: 16px;
   padding-block-end: 16px;
   margin-block-end: 16px;
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
+
 }
