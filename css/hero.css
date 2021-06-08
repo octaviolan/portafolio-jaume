@@ -32,7 +32,6 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    border: 1px solid red;
     display: flex;
     gap: 32px;
   }
@@ -45,7 +44,6 @@
   .hero-image {
     order: 2;
     flex: 1;
-    border: 1px solid blue;
     text-align: end;
   }
   .hero .button {

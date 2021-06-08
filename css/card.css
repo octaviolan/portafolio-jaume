@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+  margin-block-start: 40px;
+  margin-block-end: 80px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(39.7657px);
+  border-radius: 24px;
+}
+
+.card-image {
+  text-align: center;
+}
+
+.card-image img {
+  vertical-align: middle;
+  inline-size: 64px;
+  block-size: 64px;
+}
+
+.card-testimony {
+  margin: 0;
+  font-weight: bold;
+}
+
+.card-user {
+  margin: 0;
+  font: var(--caption);
+  opacity: .5;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 80px;
+  }
+
+  .card-image img {
+    block-size: 80px;
+    inline-size: 80px;
+  }
+
+  .card-testimony {
+    font: var(--headline4);
+    text-align: center;
+  }
+
+  .card-user {
+    font: var(--headline5);
+    text-align: center;
+  }
+}
